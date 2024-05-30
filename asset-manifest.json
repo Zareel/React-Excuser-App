@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-Excuser-App/static/css/main.873f0a2c.css",
+    "main.js": "/React-Excuser-App/static/js/main.c0291e19.js",
+    "index.html": "/React-Excuser-App/index.html",
+    "main.873f0a2c.css.map": "/React-Excuser-App/static/css/main.873f0a2c.css.map",
+    "main.c0291e19.js.map": "/React-Excuser-App/static/js/main.c0291e19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.873f0a2c.css",
+    "static/js/main.c0291e19.js"
+  ]
+}
