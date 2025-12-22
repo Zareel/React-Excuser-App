@@ -26,17 +26,17 @@ function App() {
   return (
     <div className="relative max-h-screen ">
       <img className="hidden md:flex md:absolute w-full h-screen" src={large} alt="img" />
-      <img src={mobile} className="md:hidden absolute w-full h-screen"/>
+      <img src={mobile} className="md:hidden absolute  w-full h-screen"/>
       
       <div className="md:bg-transparent flex  flex-col gap-4 lg:justify-center h-screen items-center  lg:ml-10 w-full lg:w-[800px] absolute text-black">
         <div className="w-full min-h-[180px] lg:min-h-[200px]">
-          <h1 className=" px-6 text-2xl mt-20 lg:mt-0  md:text-4xl  w-full text-center text-black font-bold font-excuse">{excuse}</h1>
+          <h1 className="border-2 px-6 text-2xl mt-10 md:mt-20 lg:mt-0  md:text-4xl  w-full text-center text-black font-bold font-excuse">{excuse}</h1>
         </div>
         <button
           onClick={() => {
             fetchData("funny");
           }}
-          className="md:text-xl bg-sky-800 px-6 py-2 mt-10 md:mt-0 rounded-md w-56 font-semibold hover:bg-sky-700 font-excuse"
+          className="md:text-xl bg-sky-800 px-6 py-2  rounded-md w-56 font-semibold hover:bg-sky-700 font-excuse"
         >
           Funny
         </button>
@@ -57,7 +57,7 @@ function App() {
           Developers
         </button>
 
-        <h1 className="text-2xl md:text-5xl lg:text-6xl font-bold border-2 border-red-600  lg:pb-12">Generate an excuse</h1>
+        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold   lg:pb-12">Generate an excuse</h1>
         {/* <img src={minionmobile} className="md:hidden"/> */}
       </div>
     </div>
