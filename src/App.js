@@ -30,7 +30,7 @@ function App() {
       
       <div className="md:bg-transparent flex  flex-col gap-4 lg:justify-center h-screen items-center  lg:ml-10 w-full lg:w-[800px] absolute text-black">
         <div className="w-full min-h-[180px] lg:min-h-[200px]">
-          <h1 className="border-2 px-6 text-2xl mt-10 md:mt-20 lg:mt-0  md:text-4xl  w-full text-center text-black font-bold font-excuse">{excuse}</h1>
+          <h1 className="px-6 text-2xl mt-10 md:mt-20 lg:mt-0  md:text-4xl  w-full text-center text-black font-bold font-excuse">{excuse}</h1>
         </div>
         <button
           onClick={() => {
@@ -57,7 +57,7 @@ function App() {
           Developers
         </button>
 
-        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold   lg:pb-12">Generate an excuse</h1>
+        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold  lg:pb-12">Generate an excuse</h1>
         {/* <img src={minionmobile} className="md:hidden"/> */}
       </div>
     </div>
