@@ -1,7 +1,7 @@
 import { useState } from "react";
 import large from "./img/large.png";
 
-import mobile from "./img/mobile3.png"
+import mobile from "./img/mobile1.png"
 import axios from "axios";
 
 function App() {
