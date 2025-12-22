@@ -24,7 +24,7 @@ function App() {
   };
 
   return (
-    <div className="relative max-h-screen">
+    <div className="relative max-h-screen ">
       <img className="hidden md:flex md:absolute w-full h-screen" src={large} alt="img" />
       <img src={mobile} className="md:hidden absolute w-full h-screen"/>
       
@@ -57,7 +57,7 @@ function App() {
           Developers
         </button>
 
-        <h1 className="text-5xl lg:text-6xl font-bold  lg:pb-12">Generate an excuse</h1>
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold  lg:pb-12">Generate an excuse</h1>
         {/* <img src={minionmobile} className="md:hidden"/> */}
       </div>
     </div>
