@@ -10,11 +10,17 @@ function App() {
   );
 
   const fetchData = async (excuse) => {
-    const { data } = await axios.get(
+   try{
+     const { data } = await axios.get(
       `https://excuser-three.vercel.app/v1/excuse/${excuse}/`
     );
     //setExcuse(data[0].excuse);
     setExcuse(data[0].excuse);
+   }
+    catch(error){
+      console.log(error)
+    }
+   
   };
 
   return (
