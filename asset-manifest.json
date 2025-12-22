@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/React-Excuser-App/static/css/main.873f0a2c.css",
-    "main.js": "/React-Excuser-App/static/js/main.c0291e19.js",
+    "main.css": "/React-Excuser-App/static/css/main.fdda4fef.css",
+    "main.js": "/React-Excuser-App/static/js/main.76a0c899.js",
+    "static/media/large.png": "/React-Excuser-App/static/media/large.bc723455c9b81e7ee8d0.png",
+    "static/media/mobile.png": "/React-Excuser-App/static/media/mobile.4de093faa722397695c4.png",
     "index.html": "/React-Excuser-App/index.html",
-    "main.873f0a2c.css.map": "/React-Excuser-App/static/css/main.873f0a2c.css.map",
-    "main.c0291e19.js.map": "/React-Excuser-App/static/js/main.c0291e19.js.map"
+    "main.fdda4fef.css.map": "/React-Excuser-App/static/css/main.fdda4fef.css.map",
+    "main.76a0c899.js.map": "/React-Excuser-App/static/js/main.76a0c899.js.map"
   },
   "entrypoints": [
-    "static/css/main.873f0a2c.css",
-    "static/js/main.c0291e19.js"
+    "static/css/main.fdda4fef.css",
+    "static/js/main.76a0c899.js"
   ]
 }
