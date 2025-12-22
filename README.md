@@ -22,8 +22,8 @@ A fun and responsive **React application** that generates random excuses using a
 ### mobile screen
 ![ss](./image.png)
 
-### larg screen
-![ss]()
+### large screen
+![ss](./large.png)
 
 ## 🛠️ Tech Stack
 
