@@ -57,7 +57,7 @@ function App() {
           Developers
         </button>
 
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold  lg:pb-12">Generate an excuse</h1>
+        <h1 className="text-2xl md:text-5xl lg:text-6xl font-bold  lg:pb-12">Generate an excuse</h1>
         {/* <img src={minionmobile} className="md:hidden"/> */}
       </div>
     </div>
