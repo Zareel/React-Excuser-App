@@ -52,12 +52,12 @@ function App() {
           onClick={() => {
             fetchData("developers");
           }}
-          className="md:text-xl bg-orange-600 px-6 py-2 rounded-md mb-10 w-56 font-semibold hover:bg-orange-500 font-excuse"
+          className="md:text-2xl bg-orange-600 px-6 py-2 rounded-md mb-10 w-56 font-semibold hover:bg-orange-500 font-excuse"
         >
           Developers
         </button>
 
-        <h1 className="text-xl md:text-5xl lg:text-6xl font-bold  lg:pb-12">Generate an excuse</h1>
+        <h1 className="text-2xl md:text-5xl lg:text-6xl font-bold border-2 border-red-600  lg:pb-12">Generate an excuse</h1>
         {/* <img src={minionmobile} className="md:hidden"/> */}
       </div>
     </div>
