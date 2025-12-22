@@ -1,7 +1,7 @@
 import { useState } from "react";
 import large from "./img/large.png";
 
-import mobile from "./img/mobile2.png"
+import mobile from "./img/mobile3.png"
 import axios from "axios";
 
 function App() {
@@ -52,7 +52,7 @@ function App() {
           onClick={() => {
             fetchData("developers");
           }}
-          className="md:text-2xl bg-orange-600 px-6 py-2 rounded-md mb-10 w-56 font-semibold hover:bg-orange-500 font-excuse"
+          className="md:text-xl bg-orange-600 px-6 py-2 rounded-md mb-10 w-56 font-semibold hover:bg-orange-500 font-excuse"
         >
           Developers
         </button>
