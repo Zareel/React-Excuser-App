@@ -19,6 +19,8 @@ A fun and responsive **React application** that generates random excuses using a
 ---
 ### Preview
 
+[Live](https://zareel.github.io/React-Excuser-App/)
+
 ### mobile screen
 ![ss](./image.png)
 
